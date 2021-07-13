@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href=  "styles.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="myLogo" ><img src="images/logo.png" alt="myLogo"></a>
+        <nav> 
+        <ul class="tabs">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+        </nav>
+        <a href="contact.html" ><button class="in-contact" >Contact</button></a>
+    </header>
+
+    <main class="cont-main">
+        
+        <section class="hmu" >
+            <div class="title">
+                <h1> Contact Us</h1>
+                <h2> We'd Like To Hear From You! </h2>
+            </div>
+           <form action=https://formspree.io/f/xpzkjzyg method = "POST">
+
+               <fieldset id = "fill-me-in">
+                    <label for ="fname">First Name</label>
+                    <input type = "text" name = "fname"placeholder="First Name..." required>
+
+                    <label for ="lname">Last Name</label>
+                    <input type = "text" name="lname" placeholder="Last Name..." required>
+
+                    <label for ="for-email">E-mail Address</label>
+                    <input type="email" name="email" placeholder="e-mail..." required>
+
+                    <label for ="sub">Subject</label>
+                    <input type = "text" name="sub" placeholder="Subject..." required>
+
+                    <label for ="msg">Message</label>
+                    <textarea id ="msg"  name = "msg" placeholder="Type you message here..."></textarea>
+                    
+                    <div class="sameline"> 
+                        <input type="checkbox" name="checkbox" id ="tick">
+                        <label for = "tick">Join our mailing list</label>
+                    </div>
+                   
+                    <button type="submit" class= "enter"> Send </button>
+
+               </fieldset>
+           </form>
+
+           <div class="halla" >
+            <i class="fa fa-map-marker"></i><p>676 Gallagher Ave, Midrand</p>
+            <i class="fa fa-phone"></i><p>(+27) 72 472 1543</p>
+            <i class="fa fa-envelope"></i><br><a class="email_me" href="tashachitongo@gmail.com"> tashachitongo@gmail.com</a>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <p> &copy; 2021 All Rights Reserved</p>
+
+        <div>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.pinterest.co.uk/"><i class="fab fa-pinterest-p"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <p> Designed by Natasha|GirlCode</p>
+    </footer>
+</body>
+</html>

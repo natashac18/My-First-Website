@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href=  "styles.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="myLogo" ><img src="images/logo.png" alt="myLogo"></a>
+        <nav> 
+        <ul class="tabs">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="gallery.html">Gallery</a></li>
+        </ul>
+        </nav>
+        <a href="contact.html" ><button class="contact" >Contact</button></a>
+    </header>
+
+    <main class="wallpaint">
+
+        <!-- IMAGE SLIDER -->
+        <h1 id="inspired">BE INSPIRED</h1>
+        <h2>Check out this week's featured artwork!</h2>
+       
+
+        <div class="carousel">
+
+            <div class="carousel_item carousel_item--visible">
+                <img src="images/Carousel/hello.jpg" alt="art at the entrance">
+            </div>
+            
+            <div class="carousel_item">
+                <img src="images/Carousel/sunflower.jpeg" alt="sunflower painting">
+            </div>
+
+            <div class="carousel_item">
+                <img src="images/Carousel/etchdesign.jpg" alt="etching as decor">
+            </div>
+
+            <div class="carousel_item">
+                <img src="images/Carousel/printdesign.jpg" alt="printed design">
+            </div>
+
+            <div class="carousel_actions">
+                <button id="carousel_button--prev"><i class="fas fa-arrow-left"></i></button>
+                <button id="carousel_button--next"><i class="fas fa-arrow-right"></i></button>
+            </div>
+
+        </div>
+
+        <h1 id= "inspired">ARTWORK</h1>
+
+        <div class="jump-to">
+            <ul>
+                <li>Jump to: </li>
+                <li><a href="#draw">Drawings</a></li>
+                <li><a href="#paint">Paintings</a> </li>
+                <li><a href="#etch">Etchings</a> </li>
+                <li><a href="#textile">Textile Designs</a> </li>
+            </ul> 
+        </div> 
+
+        <!-- DRAWINGS -->
+        <h1 id="draw"> Drawings </h1>
+        <section class="art-type">
+
+            <!-- Artwork 1 -->
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <!-- image -->
+                    <img src="images/Drawings/belle.jpg" alt = "belle">
+                </div>
+
+                <div class="likes">
+                    <!-- stars and share -->
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <div>
+                        <i class="fas fa-heart"> 201 </i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <!-- names and dimensions -->
+                    <h3> La Belle</h3>
+                    <p> A4 
+                        <br>
+                        Natasha Chitongo
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <!-- price box -->
+                    <h4>R 1,879.00</h4>
+                </div>
+            </div> 
+
+            <!-- Artwork 2 -->
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Drawings/elephant.jpg" alt = "elephant">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">768</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Take Charge </h3>
+                    <p> 950 x 1300 
+                        <br>
+                        Aimee Jones
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 2,868.00</h4>
+                </div>
+            </div>
+           
+            <!-- Artwork 3 -->
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Drawings/fine.jpg" alt = "Bloom">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="far fa-star"></i>
+                          
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">154</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Bloom  </h3>
+                    <p> 1100 x 900 
+                        <br>
+                        Annette Kessler
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 3,400.00</h4>
+                </div>
+            </div>
+
+            <!-- Artwork 4 -->
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Drawings/wine.jpg" alt = "wine">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">135</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> The Wines  </h3>
+                    <p> A3 
+                        <br>
+                        Natasha Chitongo
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 1,350.00</h4>
+                </div>
+            </div>
+
+            
+            <!-- Artwork 5 -->
+
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Drawings/tweety.jpg" alt = "tweety">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">824</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Matthew 6:26  </h3>
+                    <p> 1400 x 1000 
+                        <br>
+                        Jennifer Watson
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 2.599.00</h4>
+                </div>
+            </div>
+
+            <!-- Artwork 6 -->
+
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Drawings/city.jpg" alt = "LA">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">828</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> The Big Apple  </h3>
+                    <p> 1500 x 1200 
+                        <br>
+                        Jennifer Watson
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 3,099.00</h4>
+                </div>
+            </div>
+            
+            <!-- Artwork 7 -->
+
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Drawings/pen girl.jpg" alt = "girl">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">136</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Dawn  </h3>
+                    <p> A2 
+                        <br>
+                        Catherine Brown
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 1,200.00</h4>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- PAINTINGS -->
+        <h1 id="paint"> Paintings </h1>
+        <section class="art-type">
+            <!-- Artwork 1 -->
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Paintings/umbrella.jpg" alt = "umbrella">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">205</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Petrichor </h3>
+                    <p> 900 x 1200
+                        <br>
+                        Jimmy Balito
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 2,439.00</h4>
+                </div>
+            </div>
+
+            <!-- Artwork 2 -->
+
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Paintings/butterfly.jpg" alt = "green butterfly">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">963</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Evolve </h3>
+                    <p> 1050 x 1550
+                        <br>
+                        Natasha Chitongo
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 4,199.00</h4>
+                </div>
+            </div>
+
+            <!-- Artwork 3 -->
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Paintings/bike.jpg" alt = "bike">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">368</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Beautiful Progression </h3>
+                    <p> 1400 x 700
+                        <br>
+                      Beth Cole
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 3,379.00</h4>
+                </div>
+            </div>
+
+            <!-- Artwork 4 -->
+
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Paintings/old building.jpg" alt = "old building">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">635</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> The Museum </h3>
+                    <p> 800 x 1200
+                        <br>
+                      Marli Swanepoel
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 2,415.00</h4>
+                </div>
+            </div>
+
+            <!-- Artwork 5 -->
+
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Paintings/abstract.jpg" alt = "abstract">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">154</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Seasons </h3>
+                    <p> 950 x 1300
+                        <br>
+                      Casey Erens
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 1,999.00</h4>
+                </div>
+            </div>
+
+            <!-- Artwork 6 -->
+
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Paintings/face.jpg" alt = "face">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">528</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> A Colourful Mystery </h3>
+                    <p> 1500 x 760
+                        <br>
+                     Samantha Cordero
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 2,929.00</h4>
+                </div>
+            </div>
+
+            <!-- Artwork 7 -->
+
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Paintings/blue.jpg" alt = "blue">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">129</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Cool Waters </h3>
+                    <p> 900 x 1200
+                        <br>
+                     Joshua Willemse
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 2,500.00</h4>
+                </div>
+            </div>
+
+            <!-- Artwork 8 -->
+            
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Paintings/splash.jpg" alt = "splash">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">129</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Best of Both </h3>
+                    <p> 1900 x 1000
+                        <br>
+                     Emily Humphrey
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 1,879.00</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- ETCHINGS -->
+        <h1 id="etch"> Etchings </h1>
+        <section class="art-type">
+
+            <!-- Artwork 1 -->
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Etchings/animals.jpg" alt = "animals">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">81</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Rhinocerosful </h3>
+                    <p> A5
+                        <br>
+                     Tariana Jones
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 1,300.00</h4>
+                </div>
+            </div>
+
+            <!-- Artwork 2 -->
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Etchings/nature.jpg" alt = "nature">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">81</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Mother Nature </h3>
+                    <p> A5
+                        <br>
+                     Taylor Williams
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 2,100.00</h4>
+                </div>
+            </div>
+
+            <!-- Artwork 3 -->
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Etchings/bunny.jpg" alt = "bunny">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">98</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Honey Bun </h3>
+                    <p> A4
+                        <br>
+                     Oliver Dickens
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 1,139.00</h4>
+                </div>
+            </div>
+
+            <!-- Artwork 4 -->
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Etchings/dfly.jpg" alt = "dfly">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">683</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Winged Soldier </h3>
+                    <p> A5
+                        <br>
+                     Dante Brits
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 1,250.00</h4>
+                </div>
+            </div>
+
+            <!-- Artwork 5 -->
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Etchings/fish.jpg" alt = "fish">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">175</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Nemo </h3>
+                    <p> A5
+                        <br>
+                     Daniel Visagie
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 865.00</h4>
+                </div>
+            </div>
+        </section>
+
+         <!-- TEXTILE DESIGNS -->
+         <h1 id="textile"> Textile Designs </h1>
+         <section class="art-type">
+
+            <!-- Artwork 1 -->
+
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Textile Designs/print.jpg" alt = "printed cloth">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">976</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Printed Scarves </h3>
+                    <p> Assorted
+                        <br>
+                     Celeste Moloka
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 300.00</h4>
+                </div>
+            </div>
+
+            <!-- Artwork 2 -->
+
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Textile Designs/cushion.jpg" alt = "cushion">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">612</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Printed Sofa Cushions 3s </h3>
+                    <p> Assorted
+                        <br>
+                     Azariah Flint
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>R 420.00</h4>
+                </div>
+            </div>
+
+            <!-- Artwork 3 -->
+
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Textile Designs/cute.jpg" alt = "cute">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">456</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Custom Materials </h3>
+                    <p> Assorted
+                        <br>
+                     Morgan Taylor
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>From <br> R 200.00</h4>
+                </div>
+            </div>
+
+            <!-- Artwork 4 -->
+            <div class="artwork-box">
+
+                <div class="artwork">
+                    <img src="images/Textile Designs/african.jpg" alt = "african">
+                </div>
+
+                <div class="likes">
+                    <div>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>    
+                    </div>
+                    <div>
+                        <i class="fas fa-heart">311</i>
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                </div>
+
+
+                <div class="artwork-name">
+                    <h3> Rugged Cloth </h3>
+                    <p> Variety
+                        <br>
+                     Cindy Wright
+                    </p>
+                </div>
+
+                <div class="cost">
+                    <h4>From <br> R 250.00</h4>
+                </div>
+            </div>
+         </section>
+
+    </main>
+
+    <footer>
+        <p> &copy; 2021 All Rights Reserved</p>
+
+        <div>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.pinterest.co.uk/"><i class="fab fa-pinterest-p"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <p> Designed by Natasha|GirlCode</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
