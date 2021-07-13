@@ -21,9 +21,9 @@ To get a local copy up and running follow these simple steps.
 - A Code Editor of your choice
 
 ### To clone the repo to your local repository:
-`git clone https://github.com/natashac18/JavaScript-Simple-Exercises.git`
+`https://github.com/natashac18/na_ART_chi-My-First-Website-.git`
 
-`cd JavaScript-Simple-Exercises`
+`cd na_ART_chi-My-First-Website`
 
 Open index.html in your preferred browser
 
