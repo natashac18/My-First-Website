@@ -1,8 +1,12 @@
-# na_ART_chi-My-First-Website
+# My-First-Website: na_ART_chi
 
 ## Project Description 
 
 This project showcases the integration of HTML, CSS and JavaScript to produce a website for a unique brand named na_ART_chi.
+
+## Screenshot
+
+![Screenshot](screenshot.PNG)
 
 ## Built With
 
