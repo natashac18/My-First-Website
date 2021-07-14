@@ -14,7 +14,7 @@ This project showcases the integration of HTML, CSS and JavaScript to produce a 
 - CSS
 - JavaScript
 
-#Live Demo
+## Live Demo
 
 [Live Demo Link]( https://natashac18.github.io/My-First-Website/)
 
