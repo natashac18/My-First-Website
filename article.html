@@ -1,67 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Article</title>
-    <link rel="stylesheet" href=  "styles.css">
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <title>Blend The Rules</title>
+    <link rel="stylesheet" href="styles2.css">
+    <!-- <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
-
 <body>
-    <header>
-        <a href="index.html" class="myLogo" ><img src="images/logo.png" alt="myLogo"></a>
-        <nav> 
-        <ul class="tabs">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-        </ul>
-        </nav>
-        <a href="contact.html" ><button class="contact" >Contact</button></a>
-    </header>
+   <header>
+       <nav>
+           <div>
+               <a href="#" id="firstTab">News24</a>
+               <a href="#">Careers24</a>
+               <a href="#">Property24</a>
+               <a href="#">Autotrader</a>
+               <a href="#">Superbalist</a>
+               <a href="#">OLX</a>
+           </div>
 
-    <main>
-        <section class="behind">
-            <div id="article_heading"> 
-                <h1>Blend The Rules</h1>
-                <p> By Samantha | April 1, 2021 | Uncategorized</p>
+           <div>
+                <button class="subButton">Subscribe</button>
+                <a href="#" id="noBord">Sign in</a>
+           </div>
+       </nav>
+   </header>
+    
+   <main>
+        <section >
+            <div class="bigBox">
+                <img src="article_logo.PNG" alt="arts24">
+
+                <div class="lookup">
+                    <form>
+                        <input type="text" placeholder="Search">
+                    </form>
+
+                    <div class="icons">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+
+                <div class="weather">
+                    <i class="fas fa-cloud-sun"></i>
+                
+                    <p>Thursday,15 July
+                        <br><span class="smaller">Add location</span>
+                    </p>
+                </div>
             </div>
-            
 
-        <div id="article_content">
-            <img src="images/exhibition.jpg" alt ="exhibition">
+            <div class="quickAccess">
+                <a href="#" id="active">TOP STORIES</a>
+                <a href="#" id="invite">FOR SUBSCRIBERS</a>
+                <a href="#">ARTS</a>
+                <a href="#">MUSIC</a>
+                <a href="#">FILM & THEATRE</a>
+                <a href="#">EVENTS</a>
+                <a href="#">LITERATURE</a>
+                <a href="#">OPPORTUNITIES</a>
+            </div>
 
-            <p>Earlier today, Natasha Chitongo, founder of na_ART_chi, announced that they will be hosting their very first annual art exhibition on the 18th of May 2021. 
-            <br><br>
-            The location will be at the On Pointe Premium Venue in Fourways on 484 Bradfield drive, Magaliessig in Johannesburg.
-            This event is sponsored by NLE Choppa , Blueface as well as Pooh Shiesty . High quality artwork will be showcased.  Tickets will be sold online and at all retail stores across the country from R250. 
-            <br><br>
-            Everyone is invited to support and purchase art collections of their choice. First come, first served.
-            Doors will be opened from 12:00 to 23:00. 
-            Let's support our local artists and entertainers. Bring family and friends , snacks and beverages will be provided.  
-            <br>
-            Purchase Tickets on:
-            <br>
-            <a href="https://tickets.computicket.com/events/search-page#!" id="compu_logo"><img src="images/computicket_logo.png" alt="logo"></a></p>
-        </div>
-       
         </section>
-    </main>
 
-    <footer>
-        <p> &copy; 2021 All Rights Reserved</p>
+        <section class="theStory">
+            <div class="time">
+                <div id="clock">
+                    <i class="far fa-clock"></i>
+                    <p > 4h ago </p>
+                </div>
 
-        <div>
-            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.pinterest.co.uk/"><i class="fab fa-pinterest-p"></i></a>
-            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-        </div>
+                <i class="far fa-bookmark"></i>
+            </div>
 
-        <p> Designed by Natasha|GirlCode</p>
-    </footer>
+            <h1> Blend The Rules</h1>
+
+            <div class="reachOut">
+                <div id="who">
+                    <img src="article_logo.PNG" alt="arts24">
+                    <h3>Samantha </h3>
+                </div>
+            
+                <div class="share">
+                    <h4>SHARE</h4>
+
+                    <div class="icons">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class=" far fa-envelope"></i>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <audio controls class="sounds">
+                <source src="Ta-Da - Sound Effect (320 kbps).mp3" type="audio/mp3">
+            </audio>
+
+            <article>
+                <img src="exhibition.jpg" alt="exhibit">
+
+                <p>Earlier today, Natasha Chitongo, founder of na_ART_chi, announced that they will be hosting their very first annual art exhibition on the 18th of May 2021. 
+                    <br><br>
+                    The location will be at the On Pointe Premium Venue in Fourways on 484 Bradfield drive, Magaliessig in Johannesburg.
+                    This event is sponsored by NLE Choppa , Blueface as well as Pooh Shiesty . High quality artwork will be showcased.  Tickets will be sold online and at all retail stores across the country from R250. 
+                    <br><br>
+                    Everyone is invited to support and purchase art collections of their choice. First come, first served.
+                    Doors will be opened from 12:00 to 23:00. 
+                    Let's support our local artists and entertainers. Bring family and friends , snacks and beverages will be provided.  
+                    <br><br>
+                    Purchase Tickets on:
+                    <br>
+                    <a href="https://tickets.computicket.com/events/search-page#!" id="compu_logo"><img src="computicket_logo.png" alt="logo"></a></p>
+
+            </article>
+        </section>
+
+
+   </main>
+
+
+
 </body>
 </html>
