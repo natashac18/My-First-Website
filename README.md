@@ -14,6 +14,10 @@ This project showcases the integration of HTML, CSS and JavaScript to produce a 
 - CSS
 - JavaScript
 
+## Live Demo
+
+[Live Demo Link]( https://natashac18.github.io/My-First-Website/)
+
 ## Tested With
 
 Live Server
@@ -36,6 +40,10 @@ Open index.html in your preferred browser
 :bust_in_silhouette: **Natasha Chitongo** 
 
 GitHub: [@natashac18](https://github.com/natashac18)
+
+## Contributing
+
+Contributions, issues and feature requests are welcome!
 
 ## Show your support! 
 
