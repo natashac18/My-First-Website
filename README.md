@@ -2,7 +2,8 @@
 
 ## Project Description 
 
-This project showcases the integration of HTML, CSS and JavaScript to produce a website for a unique brand named na_ART_chi.
+This project showcases the integration of HTML, CSS and JavaScript to produce a website for a hypothetical brand named na_ART_chi. The website contains a Home page, About page, 
+Gallery, Contact form as well as an article with a few features cloned from an existing news website called arts24.
 
 ## Screenshot
 
@@ -41,10 +42,16 @@ Open index.html in your preferred browser
 
 GitHub: [@natashac18](https://github.com/natashac18)
 
-## Contributing
+## :handshake: Contributing
 
 Contributions, issues and feature requests are welcome!
 
 ## Show your support! 
 
 If you like this project, please give it a :star: !
+
+## Acknowledgements
+
+- [GitHub Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+- [Font Awesome](https://fontawesome.com/)
+- GirlCode :heart:
