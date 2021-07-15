@@ -25,7 +25,7 @@ header{
 }
 
 .myLogo{
-    margin-right: auto; /* Moves logo to the right*/
+    margin-right: auto; 
 }
 .myLogo img{
     max-width: 100%;
@@ -33,7 +33,7 @@ header{
 }
 
 .tabs{
-    list-style: none; /*Removes bullets*/
+    list-style: none; 
 }
 
 .tabs li{
