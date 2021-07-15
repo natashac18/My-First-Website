@@ -10,11 +10,10 @@
 
 /*NAVIGATION BAR*/
 
-/*For all three: li, a and button*/
 li, a, button{
     font-size: 25px;
     color: #3b2f2f;
-    text-decoration: none; /*Remove undeline*/
+    text-decoration: none; 
 }
 
 header{
