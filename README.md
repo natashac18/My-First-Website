@@ -17,7 +17,7 @@ Gallery, Contact form as well as an article with a few features cloned from an e
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://natashac18.github.io/My-First-Website/)
 
 ## Tested With
 
